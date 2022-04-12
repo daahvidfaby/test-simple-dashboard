@@ -1,0 +1,37 @@
+.table {
+
+    &__cell {
+
+        .status {
+            padding: 5px;
+            border-radius: 5px;
+
+            &.Approved {
+                color: green;
+                background-color: rgba(0, 128, 0, 0.055);
+            }
+
+            &.Pending {
+                color: goldenrod;
+                background-color: rgba(218, 165, 32, 0.062);
+            }
+        }
+    }
+
+}
+
+.cell {
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+}
