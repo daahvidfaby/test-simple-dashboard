@@ -3,7 +3,6 @@ import Sidebar from '../../components/sidebar/Sidebar'
 import DriveFolderUploadIcon from '@mui/icons-material/DriveFolderUpload';
 import './new.scss'
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const New = ({inputs, title}) => {
 
